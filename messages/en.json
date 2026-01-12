@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "interests": "Interests",
+    "certifications": "Certifications"
+  },
+  "about": {
+    "name": "Tzuhan Hsu",
+    "firstName": "Tzuhan",
+    "lastName": "Hsu",
+    "tagline": "I'm a professional software engineer and a digital art hobbyist."
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "title": "Technical Support Engineer (Japanese market)",
+        "company": "Appier Inc., Taipei Taiwan",
+        "period": "April 2020 - Current",
+        "description": [
+          "Assist worldwide partner companies to integrate Appier's multi-platform SDK into their product and troubleshoot technical issues.",
+          "Provide solutions to boost conversion rate and create better user experience with Appier SDK based on my domain knowledge of mobile(android, iOS) and web development and UIUX design.",
+          "Share knowledge of app development across the team and continuously develop and enhance personal and team capabilities."
+        ]
+      },
+      {
+        "title": "Fullstack Engineer",
+        "company": "Marcopolos Inc., Tokyo Japan",
+        "period": "April 2017 - January 2019",
+        "description": [
+          "Developed and maintained a stock trading app service of our parent company, OneTapBUY Co., Ltd., with a total of 130k users and an average 40k DAU.",
+          "Led an offshore team of 6 developers/QAs in Chengdu, China to delivered 2 new apps and new functionalities of the broker platform, resulting in a 96% increase in user registration and a 40% increase in profit within 10 months.",
+          "By analyzing the company's profit model which heavily relys on stock trading transaction fee (about 72%), introduced and implemented a monthly subscription business model.",
+          "Refined UI/UX and resolved 10 most occurred bugs of our Android apps, increasing the bug free rate from 97% to 99.2% and reduced 10% of the customer inquiries.",
+          "Designed website UI prototypes, translated documents and instructions between Japanese and Chinese, performed code review and unit tests."
+        ]
+      },
+      {
+        "title": "Game Programmer",
+        "company": "GeePlus Inc., Tokyo Japan",
+        "period": "November 2014 - March 2017",
+        "description": [
+          "Developed and maintained a 7-year-old mobile web game on Gree platform, with an 100k DAU.",
+          "Created new game features in a 30-people team.",
+          "Created python automation scripts, saved up to 80% preparation time for monthly regular game events updates."
+        ]
+      },
+      {
+        "title": "Lead Game artist",
+        "company": "Bonio Inc., Taipei Taiwan",
+        "period": "April 2013 - June 2014",
+        "description": [
+          "Participated in as one of the startup members of Bonio Inc., founded by my research advisor, Prof. Yeh Ping-Cheng in 2014. The main service of the company, PagamO, is an online web game aims to fill the urban-rural gap in k-12 education. By using technical innovation and essenes of gamification, the game had become one of the official remedial teaching material of K-12 recommended by The Ministry of Education (Taiwan) in 2017, and currently used by 500 ,000 students and 3,000 schools worldwide.",
+          "Supervised 2 new game artists to design new game UI and assets for the team.",
+          "Created new game features to gamify the learning process.",
+          "Designed company's visual identity, such as company logo, name card, official website UI, etc."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "schools": [
+      {
+        "name": "National Taiwan University",
+        "degree": "Bachelor of Science",
+        "field": "Computer Science and Information Engineering",
+        "gpa": "3.46",
+        "period": "September 2010 - June 2014"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Programming Languages & Tools"
+  },
+  "interests": {
+    "title": "Interests",
+    "content": [
+      "Apart from being a software developer, I enjoy most of my time drawing digital arts and watching Japanese mangas and animations. I'm fond of the fascinating visual impact the artists can create with just one simple pencil.",
+      "Aiming to develop my own indie game in the near future, I'm also spending my spare time in learning game programing and 3d modeling/rendering, etc."
+    ],
+    "artLinksTitle": "My Art Social Media Links"
+  },
+  "certifications": {
+    "title": "Language Skills & Certifications",
+    "items": [
+      "JLPT N1 Certificated. (2014/08)",
+      "TOEIC score 965. (2015/12)",
+      "情報処理技術者試験 (ITEE) Certificated. (2017/11)"
+    ]
+  }
+}

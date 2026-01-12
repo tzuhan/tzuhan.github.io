@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "about": "關於我",
+    "experience": "工作經驗",
+    "education": "教育程度",
+    "skills": "專業技能",
+    "interests": "個人興趣",
+    "certifications": "語言/技術證照"
+  },
+  "about": {
+    "name": "徐子函",
+    "firstName": "子函",
+    "lastName": "徐",
+    "tagline": "我是個專業的軟體工程師以及一個業餘數位藝術愛好者。"
+  },
+  "experience": {
+    "title": "工作經驗",
+    "jobs": [
+      {
+        "title": "Technical Support Engineer 技術支援工程師",
+        "company": "沛星互動科技股份有限公司, 台北 台灣",
+        "period": "April 2020 - 現在",
+        "description": [
+          "協助合作顧客（日本/韓國為主）使用沛星產品（顧客互動行銷平台 AIQUA 與資料科學平台 AIXON），協助顧客整合Appier SDK至顧客的App以及網頁內，透過人工智慧技術提升顧客平台的用戶互動與溝通模式。",
+          "解決顧客使用產品的技術問題，並參與顧客會議，提出更有效的產品使用方式與解法。",
+          "根據過往個人經驗，主動於組內分享APP相關知識。訓練組內同事與新人處理APP SDK相關的顧客問題與除錯方法。"
+        ]
+      },
+      {
+        "title": "Fullstack Engineer 全端工程師",
+        "company": "Marcopolos Inc., 東京 日本",
+        "period": "2017年4月 - 2019年1月",
+        "description": [
+          "開發並維護母公司 OneTapBUY Co., Ltd.於Google App Store/iOS App Store發行的股票交易App，網頁平台以及後端交易平臺系統。",
+          "主導成都的子開發/測試團隊開發新App與增進網頁平台系統功能性，在10個月內提升了96%的新戶註冊數量以及40%的收益成長。",
+          "改善App與網頁的UI/UX，協助修改了後台統計前十名最常發生的Android app崩潰錯誤，並讓Android apps相關的客服問題減少了10%。",
+          "設計網頁新版UI原型，協助測試與翻譯日/中內部文件/溝通書信，確保兩地同事工作順利。"
+        ]
+      },
+      {
+        "title": "Game Programmer 遊戲工程師",
+        "company": "GeePlus Inc., 東京 日本",
+        "period": "2014年11月 - 2017年3月",
+        "description": [
+          "開發並維護母公司Gree平台上的一款經營7年的web遊戲。並負責維護確保能夠運行在各類Android/iOS/功能型手機上。",
+          "開發自動化Python腳本，簡化了例行遊戲活動的準備手續，並節省了80%的設定時間。"
+        ]
+      },
+      {
+        "title": "Lead Game artist 主遊戲美術",
+        "company": "幫你優股份有限公司, 台北 台灣",
+        "period": "2013年4月 - 2014年6月",
+        "description": [
+          "參與幫你優公司的新創初始過程。跟成員一同開發了一套教育取向的網頁遊戲 \"PagamO\"。運用Gamification（遊戲化）理論進而提升學生的課程參與率。",
+          "擔任初期美術設計，並訓練兩位新遊戲美術成員開發UI/與遊戲素材。",
+          "設計公司Logo，官方網站視覺，名片等。"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "教育程度",
+    "schools": [
+      {
+        "name": "國立台灣大學",
+        "degree": "理工學士",
+        "field": "CSIE 資訊系",
+        "gpa": "3.46",
+        "period": "2010年9月 - 2014年6月"
+      }
+    ]
+  },
+  "skills": {
+    "title": "專業技能",
+    "subtitle": "編成語言與各式工具"
+  },
+  "interests": {
+    "title": "個人興趣",
+    "content": [
+      "在職業工程師之餘，我閒暇之餘也會嘗試數位/傳統藝術創作，藉此陶冶身心。此外我也在學習開發個人獨立遊戲，學習Game programming/3D建模/Rendering等相關編程知識。"
+    ],
+    "artLinksTitle": "我的藝術創作社群媒體"
+  },
+  "certifications": {
+    "title": "語言/技術證照",
+    "items": [
+      "JLPT 日本語能力試驗 N1 合格 (2014/08)",
+      "TOEIC 多益 分數: 965 (2015/12)",
+      "情報処理技術者試験 (ITEE) 合格 (2017/11)"
+    ]
+  }
+}

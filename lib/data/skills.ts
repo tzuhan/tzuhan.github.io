@@ -1,0 +1,15 @@
+export const skills = [
+  { name: "C", icon: "DiGit" },
+  { name: "C++", icon: "SiCplusplus" },
+  { name: "Go", icon: "SiGo" },
+  { name: "PHP", icon: "SiPhp" },
+  { name: "MySQL", icon: "SiMysql" },
+  { name: "Android", icon: "SiAndroid" },
+  { name: "Linux", icon: "SiLinux" },
+  { name: "HTML5", icon: "SiHtml5" },
+  { name: "CSS3", icon: "SiCss3" },
+  { name: "Git", icon: "SiGit" },
+  { name: "Markdown", icon: "SiMarkdown" },
+  { name: "Photoshop", icon: "SiAdobephotoshop" },
+  { name: "Illustrator", icon: "SiAdobeillustrator" },
+];

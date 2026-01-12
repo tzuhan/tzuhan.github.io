@@ -1,35 +1,77 @@
-# Tzuhan Hsu's personal resume
-Forked from  [Start Bootstrap](https://github.com/BlackrockDigital/startbootstrap-resume/)
+# Tzuhan Hsu - Personal Portfolio
 
-## Todo:
- 1. update multi-language text
- 2. [css background image slideshow](https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/)
- 3. art project thumbnail in intrests page
- 4. [Animation](http://airbnb.io/lottie/#/README)
- 
+A modern personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and next-intl for internationalization.
 
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+## Features
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+- ✨ Modern React with Next.js 14 App Router
+- 🎨 Tailwind CSS for styling
+- 🌍 Multi-language support (English, Chinese, Japanese)
+- 📱 Fully responsive design
+- ⚡ Static site generation for optimal performance
+- 🎯 TypeScript for type safety
 
+## Getting Started
 
+### Development
 
+```bash
+npm install
+npm run dev
+```
 
-## About
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+### Building for Production
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+```bash
+npm run build
+```
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+The static files will be generated in the `out` directory.
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+### Deploying to GitHub Pages
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+1. Build the project:
+   ```bash
+   npm run build
+   ```
 
-## Copyright and License
+2. The `out` directory contains the static files ready for deployment.
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+3. Copy the contents of the `out` directory to your GitHub Pages repository root.
+
+## Project Structure
+
+```
+├── app/
+│   ├── [locale]/          # Internationalized routes
+│   │   ├── layout.tsx     # Root layout with i18n
+│   │   └── page.tsx       # Home page
+│   └── globals.css        # Global styles
+├── components/
+│   ├── Navigation.tsx     # Main navigation
+│   └── sections/          # Page sections
+│       ├── About.tsx
+│       ├── Experience.tsx
+│       ├── Education.tsx
+│       ├── Skills.tsx
+│       ├── Interests.tsx
+│       └── Certifications.tsx
+├── i18n/
+│   ├── request.ts         # i18n configuration
+│   └── routing.ts         # Routing configuration
+├── lib/
+│   └── data/              # Static data
+│       ├── social-links.ts
+│       └── skills.ts
+├── messages/              # Translation files
+│   ├── en.json
+│   ├── zh.json
+│   └── ja.json
+└── public/                # Static assets
+```
+
+## License
+
+MIT
