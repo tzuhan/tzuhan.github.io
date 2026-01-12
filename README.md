@@ -1,6 +1,10 @@
 # Tzuhan Hsu - Personal Portfolio
 
+🌐 **Live Site**: [https://tzuhan.github.io](https://tzuhan.github.io)
+
 A modern personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and next-intl for internationalization.
+
+> **Note**: This is the source code repository. The live website is automatically built and deployed via GitHub Actions.
 
 ## Features
 
@@ -32,14 +36,15 @@ The static files will be generated in the `out` directory.
 
 ### Deploying to GitHub Pages
 
-1. Build the project:
-   ```bash
-   npm run build
-   ```
+The site is automatically deployed via GitHub Actions on every push to the `master` branch.
 
-2. The `out` directory contains the static files ready for deployment.
+To deploy manually:
+```bash
+npm run build
+gh-pages -d out -b gh-pages
+```
 
-3. Copy the contents of the `out` directory to your GitHub Pages repository root.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 
 ## Project Structure
 
