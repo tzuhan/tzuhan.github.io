@@ -11,49 +11,61 @@
     "name": "徐子函",
     "firstName": "子函",
     "lastName": "徐",
-    "tagline": "我是個專業的軟體工程師以及一個業餘數位藝術愛好者。"
+    "tagline": "三語技術專家，10年以上技術支援及開發經驗"
   },
   "experience": {
     "title": "工作經驗",
     "jobs": [
       {
-        "title": "Technical Support Engineer 技術支援工程師",
-        "company": "沛星互動科技股份有限公司, 台北 台灣",
-        "period": "April 2020 - 現在",
+        "title": "Customer Success Manager (技術支援為主)",
+        "company": "Bitrise, 遠端工作",
+        "period": "2024年6月 - 2025年11月",
         "description": [
-          "協助合作顧客（日本/韓國為主）使用沛星產品（顧客互動行銷平台 AIQUA 與資料科學平台 AIXON），協助顧客整合Appier SDK至顧客的App以及網頁內，透過人工智慧技術提升顧客平台的用戶互動與溝通模式。",
-          "解決顧客使用產品的技術問題，並參與顧客會議，提出更有效的產品使用方式與解法。",
-          "根據過往個人經驗，主動於組內分享APP相關知識。訓練組內同事與新人處理APP SDK相關的顧客問題與除錯方法。"
+          "主要職責：作為亞太地區唯一支援人員，為30多家企業客戶提供L2/L3技術支援，涵蓋亞太、歐洲、大洋洲地區",
+          "解決複雜的CI/CD問題：包括行動裝置建置、API整合、Xcode/Gradle/Fastlane以及程式碼簽章問題",
+          "分析客戶的CI/CD工作流程，提供優化建議，並指導採用進階功能（包括pipelines、remote build cache和release management），成功將建置時間縮短30-60%，提升工程師滿意度",
+          "主動監控客戶系統使用情況，識別效能異常（如建置時間激增、成功率下降），並指導客戶使用Bitrise Insights建立自動化監控警報系統",
+          "每月與企業客戶召開同步會議，解決持續性問題並提供技術指導，以母語支援10多家日本大型企業（7&i Holdings、Recruit、PayPay、DeNA）"
         ]
       },
       {
-        "title": "Fullstack Engineer 全端工程師",
+        "title": "資深技術專員",
+        "company": "Bitrise, 遠端工作",
+        "period": "2022年5月 - 2024年6月",
+        "description": [
+          "在iOS/Android平台上達成98.8%的L2技術問題解決率，無需升級至L3",
+          "為10多家日本企業客戶提供技術導入服務，透過成功的平台採用貢獻10%營收成長",
+          "開發內部知識庫與故障排除手冊"
+        ]
+      },
+      {
+        "title": "資深技術支援工程師",
+        "company": "沛星互動科技股份有限公司, 台北 台灣",
+        "period": "2020年4月 - 2022年5月",
+        "description": [
+          "支援亞太地區合作夥伴在iOS/Android/Web平台上的SDK整合",
+          "提供技術建議以提升行動及網頁平台的轉換率",
+          "2021年兩度獲得Best Appier Award，表彰傑出貢獻"
+        ]
+      },
+      {
+        "title": "全端工程師",
         "company": "Marcopolos Inc., 東京 日本",
         "period": "2017年4月 - 2019年1月",
         "description": [
-          "開發並維護母公司 OneTapBUY Co., Ltd.於Google App Store/iOS App Store發行的股票交易App，網頁平台以及後端交易平臺系統。",
-          "主導成都的子開發/測試團隊開發新App與增進網頁平台系統功能性，在10個月內提升了96%的新戶註冊數量以及40%的收益成長。",
-          "改善App與網頁的UI/UX，協助修改了後台統計前十名最常發生的Android app崩潰錯誤，並讓Android apps相關的客服問題減少了10%。",
-          "設計網頁新版UI原型，協助測試與翻譯日/中內部文件/溝通書信，確保兩地同事工作順利。"
+          "開發股票交易平台（13萬用戶，4萬日活躍用戶）及Android應用程式",
+          "領導6人離岸開發/測試團隊，在10個月內實現用戶註冊增長96%，利潤增長40%",
+          "透過分析利潤結構，引入月費訂閱商業模式",
+          "優化UI/UX並修復前10大錯誤，將無錯誤率從97%提升至99.2%"
         ]
       },
       {
-        "title": "Game Programmer 遊戲工程師",
+        "title": "遊戲工程師",
         "company": "GeePlus Inc., 東京 日本",
         "period": "2014年11月 - 2017年3月",
         "description": [
-          "開發並維護母公司Gree平台上的一款經營7年的web遊戲。並負責維護確保能夠運行在各類Android/iOS/功能型手機上。",
-          "開發自動化Python腳本，簡化了例行遊戲活動的準備手續，並節省了80%的設定時間。"
-        ]
-      },
-      {
-        "title": "Lead Game artist 主遊戲美術",
-        "company": "幫你優股份有限公司, 台北 台灣",
-        "period": "2013年4月 - 2014年6月",
-        "description": [
-          "參與幫你優公司的新創初始過程。跟成員一同開發了一套教育取向的網頁遊戲 \"PagamO\"。運用Gamification（遊戲化）理論進而提升學生的課程參與率。",
-          "擔任初期美術設計，並訓練兩位新遊戲美術成員開發UI/與遊戲素材。",
-          "設計公司Logo，官方網站視覺，名片等。"
+          "開發行動遊戲（10萬日活躍用戶）",
+          "自動化部署工作流程，將發布時間縮短80%"
         ]
       }
     ]
@@ -72,7 +84,7 @@
   },
   "skills": {
     "title": "專業技能",
-    "subtitle": "編成語言與各式工具"
+    "subtitle": "CI/CD (Bitrise)、Linux、Git、MySQL、Python、PHP、Android Programming、Swift、Objective-C、Javascript、C/C++"
   },
   "interests": {
     "title": "個人興趣",
@@ -84,8 +96,9 @@
   "certifications": {
     "title": "語言/技術證照",
     "items": [
-      "JLPT 日本語能力試驗 N1 合格 (2014/08)",
-      "TOEIC 多益 分數: 965 (2015/12)",
+      "中文：母語",
+      "英文：流利 (TOEIC 多益 分數: 965)",
+      "日文：流利 (JLPT 日本語能力試驗 N1 合格)",
       "情報処理技術者試験 (ITEE) 合格 (2017/11)"
     ]
   }

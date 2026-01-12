@@ -12,19 +12,41 @@
     "firstName": "ツーハン",
     "lastName": "シュウ",
     "ruby": "シュウ　　　　　ツーハン",
-    "tagline": "アート思考のプロフェッショナルソフトウェアエンジニア"
+    "tagline": "トライリンガル技術プロフェッショナル、10年以上のサポート・開発経験"
   },
   "experience": {
     "title": "職務経験",
     "jobs": [
       {
-        "title": "Technical Support Engineer (Japanese market)",
-        "company": "Appier 株式会社, 台北 台湾",
-        "period": "20204月 - 現在",
+        "title": "カスタマーサクセスマネージャー（テクニカルサポート重点）",
+        "company": "Bitrise, リモート",
+        "period": "2024年6月 - 2025年11月",
         "description": [
-          "日本、韓国クライアントにAppierエンタープライズソリューションのマルチプラットフォームSDK導入に関わるテクニカルコンサルティングサポート。",
-          "今までのアプリ/ウェブ開発及びUIUXデザインの経験を生かし、クライアントにコンバージョン率向上とユーザーエクスペリエンス改善ソリューション提案。",
-          "チーム内の技術共有（今まで個人のアプリ開発/UIUXデザイン知識）と新入メンバーの教育担当。"
+          "主な業務：APAC唯一のサポート担当として、APAC/EMEA/オセアニア地域の30社以上のエンタープライズ顧客にL2/L3テクニカルサポートを提供",
+          "複雑なCI/CD問題のトラブルシューティング：モバイルビルド、API統合、Xcode/Gradle/Fastlane、コード署名の問題",
+          "顧客のCI/CDワークフローを分析し、最適化の提案を行い、パイプライン、リモートビルドキャッシュ、リリース管理などの高度な機能の導入を支援。その結果、ビルド時間を30-60%改善し、エンジニアの満足度を向上",
+          "顧客のシステム使用状況を積極的に監視し、パフォーマンスの異常（ビルド時間の急増、成功率の低下）を特定。Bitrise Insightsを使用した自動アラート監視システムの導入を支援",
+          "エンタープライズ顧客との月次同期ミーティングを実施し、継続的な問題に対処し技術指導を提供。10社以上の主要な日本企業（7&i Holdings、Recruit、PayPay、DeNA）を母国語でサポート"
+        ]
+      },
+      {
+        "title": "シニアテクニカルスペシャリスト",
+        "company": "Bitrise, リモート",
+        "period": "2022年5月 - 2024年6月",
+        "description": [
+          "iOS/AndroidにおけるL2技術問題の98.8%をL3エスカレーションなしで解決",
+          "10社以上の日本企業顧客に技術オンボーディングを提供し、プラットフォーム導入の成功により10%の売上成長に貢献",
+          "社内ナレッジベースとトラブルシューティングランブックを開発"
+        ]
+      },
+      {
+        "title": "シニアテクニカルサポートエンジニア",
+        "company": "Appier 株式会社, 台北 台湾",
+        "period": "2020年4月 - 2022年5月",
+        "description": [
+          "APACパートナーのiOS/Android/WebプラットフォームへのSDK統合をサポート",
+          "モバイル・Webプラットフォームのコンバージョン率向上のための技術提案を提供",
+          "2021年にBest Appier Awardを2度受賞し、優れた貢献を認められる"
         ]
       },
       {
@@ -32,32 +54,19 @@
         "company": "株式会社マルコ・ポーローズ, 東京 日本",
         "period": "2017年4月 - 2019年1月",
         "description": [
-          "Developed and maintained a stock trading app service of our parent company, OneTapBUY Co., Ltd., with a total of 130k users and an average 40k DAU.",
-          "Led an offshore team of 6 developers/QAs in Chengdu, China to delivered 2 new apps and new functionalities of the broker platform, resulting in a 96% increase in user registration and a 40% increase in profit within 10 months.",
-          "By analyzing the company's profit model which heavily relys on stock trading transaction fee (about 72%), introduced and implemented a monthly subscription business model.",
-          "Refined UI/UX and resolved 10 most occurred bugs of our Android apps, increasing the bug free rate from 97% to 99.2% and reduced 10% of the customer inquiries.",
-          "Designed website UI prototypes, translated documents and instructions between Japanese and Chinese, performed code review and unit tests."
+          "株式取引プラットフォーム（13万ユーザー、4万DAU）およびAndroidアプリケーションを構築",
+          "6名の開発/QAオフショアチームを率い、10ヶ月でユーザー登録96%増加、利益40%増加を実現",
+          "利益構造の分析により、月額サブスクリプションビジネスモデルを導入",
+          "UI/UXを改善し、トップ10のバグを修正。バグフリー率を97%から99.2%に向上"
         ]
       },
       {
-        "title": "ゲームプログラマ",
+        "title": "ゲームエンジニア",
         "company": "ジープラ株式会社, 東京 日本",
         "period": "2014年11月 - 2017年3月",
         "description": [
-          "Developed and maintained a 7-year-old mobile web game on Gree platform, with an 100k DAU.",
-          "Created new game features in a 30-people team.",
-          "Created python automation scripts, saved up to 80% preparation time for monthly regular game events updates."
-        ]
-      },
-      {
-        "title": "リードゲームデザイナ",
-        "company": "Bonio Inc., 台北 台湾",
-        "period": "2013年4月 - 2014年6月",
-        "description": [
-          "Participated in as one of the startup members of Bonio Inc., founded by my research advisor, Prof. Yeh Ping-Cheng in 2014. The main service of the company, PagamO, is an online web game aims to fill the urban-rural gap in k-12 education. By using technical innovation and essenes of gamification, the game had become one of the official remedial teaching material of K-12 recommended by The Ministry of Education (Taiwan) in 2017, and currently used by 500 ,000 students and 3,000 schools worldwide.",
-          "Supervised 2 new game artists to design new game UI and assets for the team.",
-          "Created new game features to gamify the learning process.",
-          "Designed company's visual identity, such as company logo, name card, official website UI, etc."
+          "モバイルゲーム（10万DAU）を開発",
+          "デプロイメントワークフローを自動化し、リリース時間を80%削減"
         ]
       }
     ]
@@ -76,21 +85,22 @@
   },
   "skills": {
     "title": "スキル",
-    "subtitle": "プログラミング言語とツール"
+    "subtitle": "CI/CD (Bitrise)、Linux、Git、MySQL、Python、PHP、Android Programming、Swift、Objective-C、Javascript、C/C++"
   },
   "interests": {
     "title": "趣味",
     "content": [
-      "Apart from being a software developer, I enjoy most of my time drawing digital arts and watching Japanese mangas and animations. I'm fond of the fascinating visual impact the artists can create with just one simple pencil.",
-      "Aiming to develop my own indie game in the near future, I'm also spending my spare time in learning game programing and 3d modeling/rendering, etc."
+      "ソフトウェア開発者として働く傍ら、デジタルアートを描いたり、日本の漫画やアニメを見たりすることを楽しんでいます。アーティストが一本の鉛筆だけで生み出す視覚的なインパクトに魅了されています。",
+      "近い将来、自分のインディーゲームを開発することを目指しており、余暇の時間をゲームプログラミングや3Dモデリング/レンダリングなどの学習に費やしています。"
     ],
     "artLinksTitle": "私のアート作品のアカウントリンク："
   },
   "certifications": {
     "title": "資格",
     "items": [
-      "JLPT日本語能力試験 N1 合格 （2014/08)",
-      "TOEIC 点数 965点 (2015/12)",
+      "中国語：ネイティブ",
+      "英語：流暢 (TOEIC 点数 965点)",
+      "日本語：流暢 (JLPT日本語能力試験 N1 合格)",
       "情報処理技術者試験 (ITEE) 合格 (2017/11)"
     ]
   }

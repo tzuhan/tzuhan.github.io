@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { Link } from '@/i18n/routing';
 
 const localeEmojis: Record<string, string> = {
   en: '🇺🇸',
@@ -26,7 +25,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 lg:top-0 lg:left-0 lg:bottom-0 lg:w-64 bg-primary z-50 w-full">
+    <nav className="fixed top-0 lg:top-0 lg:left-0 lg:bottom-0 lg:w-[17rem] bg-primary z-50 w-full">
       <div className="flex lg:flex-col items-center lg:items-start lg:h-full px-4 lg:px-0">
         <a
           href="#page-top"
@@ -71,16 +70,15 @@ export default function Navigation() {
             ))}
             <li className="flex gap-3 py-2 px-4 lg:px-6">
               {['en', 'zh', 'ja'].map((locale) => (
-                <Link
+                <a
                   key={locale}
-                  href="/"
-                  locale={locale}
+                  href={`/${locale}`}
                   className={`text-2xl hover:scale-110 transition-transform ${
                     currentLocale === locale ? 'opacity-100' : 'opacity-60'
                   }`}
                 >
                   {localeEmojis[locale]}
-                </Link>
+                </a>
               ))}
             </li>
           </ul>

@@ -8,12 +8,14 @@ export default function About() {
   return (
     <section className="resume-section p-8 lg:p-20 flex items-center" id="about">
       <div className="w-full">
-        <h1 className="mb-2">
-          {t('firstName')}
-          <span className="text-primary"> {t('lastName')}</span>
-        </h1>
+        <div className="inline-block bg-white/50 rounded-lg px-6 py-4 mb-8">
+          <h1 className="mb-2">
+            {t('firstName')}
+            <span className="text-primary"> {t('lastName')}</span>
+          </h1>
 
-        <h3 className="text-xl lg:text-2xl mb-8 font-normal normal-case">{t('tagline')}</h3>
+          <h3 className="text-xl lg:text-2xl font-normal normal-case">{t('tagline')}</h3>
+        </div>
 
         <div className="social-icons flex">
           <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

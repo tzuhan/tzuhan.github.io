@@ -8,6 +8,7 @@ body {
   font-family: var(--font-muli), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   padding-top: 54px;
   color: #868e96;
+  background-color: white;
 }
 
 @media (min-width: 992px) {
@@ -49,7 +50,41 @@ h2 {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  background-color: white;
+}
+
+section.resume-section#about {
+  position: relative;
+  overflow: visible;
+}
+
+section.resume-section#about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(-17rem);
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  background-image: url(/img/self-portrait.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  z-index: 0;
+}
+
+section.resume-section#about > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  section.resume-section#about::before {
+    background-image: url(/img/self-portrait-large.png);
+    background-position: right center;
+    background-size: auto 100%;
+    right: calc(-100vw + 100% + 17rem);
+  }
 }
 
 section.resume-section .resume-item .resume-date {
@@ -73,7 +108,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 .social-icons a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
@@ -81,9 +118,13 @@ section.resume-section .resume-item .resume-date {
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
-  line-height: 3.5rem;
   margin-right: 1rem;
   transition: all 0.3s;
+}
+
+.social-icons a svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .social-icons a:last-child {
