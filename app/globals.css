@@ -66,6 +66,7 @@ section.resume-section#about::before {
   right: 0;
   bottom: 0;
   width: 100vw;
+  background-color: #B36290;
   background-image: url(/img/self-portrait.png);
   background-repeat: no-repeat;
   background-position: right center;
