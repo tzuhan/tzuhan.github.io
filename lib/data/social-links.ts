@@ -6,7 +6,7 @@ export const socialLinks = {
 
 export const artSocialLinks = {
   facebook: "https://www.facebook.com/coderdrawing/",
-  pixiv: "https://www.pixiv.net/users/2495093",
+  instagram: "https://www.instagram.com/coderdrawing",
   twitter: "https://twitter.com/coderdrawing",
   youtube: "https://www.youtube.com/channel/UCnSQenj1Q2GttwuwmXtS11Q",
 };
