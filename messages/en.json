@@ -43,9 +43,9 @@
         "company": "Appier Inc., Taipei Taiwan",
         "period": "April 2020 - May 2022",
         "description": [
-          "Supported APAC partners with SDK integration across iOS/Android/web platforms",
-          "Provided technical recommendations to enhance conversion rates across mobile and web platforms",
-          "Received Best Appier Award twice in 2021 for outstanding contributions"
+          "Assist worldwide partner companies to integrate Appier's multi-platform SDK into their product and troubleshoot technical issues.",
+          "Provide solutions to boost conversion rate and create better user experience with Appier SDK based on my domain knowledge of mobile(android, iOS) and web development and UIUX design.",
+          "Share knowledge of app development across the team and continuously develop and enhance personal and team capabilities."
         ]
       },
       {
@@ -53,19 +53,21 @@
         "company": "Marcopolos Inc., Tokyo Japan",
         "period": "April 2017 - January 2019",
         "description": [
-          "Built stock trading platform (130k users, 40k DAU) and Android applications",
-          "Led offshore team of 6 developers/QAs, resulting in 96% increase in user registration and 40% increase in profit within 10 months",
-          "Introduced monthly subscription business model by analyzing profit structure",
-          "Refined UI/UX and resolved top 10 bugs, increasing bug-free rate from 97% to 99.2%"
+          "Developed and maintained a stock trading app service of our parent company, OneTapBUY Co., Ltd., with a total of 130k users and an average 40k DAU.",
+          "Led an offshore team of 6 developers/QAs in Chengdu, China to delivered 2 new apps and new functionalities of the broker platform, resulting in a 96% increase in user registration and a 40% increase in profit within 10 months.",
+          "By analyzing the company's profit model which heavily relys on stock trading transaction fee (about 72%), introduced and implemented a monthly subscription business model.",
+          "Refined UI/UX and resolved 10 most occurred bugs of our Android apps, increasing the bug free rate from 97% to 99.2% and reduced 10% of the customer inquiries.",
+          "Designed website UI prototypes, translated documents and instructions between Japanese and Chinese, performed code review and unit tests."
         ]
       },
       {
-        "title": "Game Engineer",
+        "title": "Game Programmer",
         "company": "GeePlus Inc., Tokyo Japan",
         "period": "November 2014 - March 2017",
         "description": [
-          "Developed mobile game (100k DAU)",
-          "Automated deployment workflows reducing release time by 80%"
+          "Developed and maintained a 7-year-old mobile web game on Gree platform, with an 100k DAU.",
+          "Created new game features in a 30-people team.",
+          "Created python automation scripts, saved up to 80% preparation time for monthly regular game events updates."
         ]
       }
     ]
