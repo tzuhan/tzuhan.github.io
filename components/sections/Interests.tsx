@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaYoutube, FaInstagram } from 'react-icons/fa';
 import { artSocialLinks } from '@/lib/data/social-links';
 
 export default function Interests() {
@@ -26,11 +26,6 @@ export default function Interests() {
           {artSocialLinks.instagram && (
             <a href={artSocialLinks.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram />
-            </a>
-          )}
-          {artSocialLinks.twitter && (
-            <a href={artSocialLinks.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <FaTwitter />
             </a>
           )}
           <a href={artSocialLinks.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
